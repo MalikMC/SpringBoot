@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper:根标签，namespace：命名空间，随便写，一般保证命名空间唯一 ，为了使用接口动态代理，这里必须是接口的全路径名-->
+<mapper namespace="com.machun.springbootmybatisplus.dao.UserDao">
+    <!--
+1、#{}是预编译处理，MyBatis在处理#{ }时，它会将sql中的#{ }替换为？，然后调用PreparedStatement的set方法来赋值，传入字符串后，会在值两边加上单引号，如上面的值 “4,44,514”就会变成“ ‘4,44,514’ ”；
+2、${}是字符串替换，在处理是字符串替换，MyBatis在处理时,它会将sql中的{}是字符串替换，在处理{ }是字符串替换， MyBatis在处理{ }时,它会将sql中的是字符串替换，在处理是字符串替换，MyBatis在处理时,它会将sql中的{ }替换为变量的值，传入的数据不会加两边加上单引号。
+注意：使用${ }会导致sql注入，不利于系统的安全性！SQL注入：就是通过把SQL命令插入到Web表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的SQL命令。常见的有匿名登录（在登录框输入恶意的字符串）、借助异常获取数据库信息等
+     -->
+    <select id="queryUserByTableName" resultType="com.machun.springbootmybatisplus.entity.User">
+        select * from ${tableName}
+    </select>
+
+    <select id="login" resultType="com.machun.springbootmybatisplus.entity.User">
+        select * from user where username = #{username} and password = #{password}
+    </select>
+
+    <!-- statement，内容：sql语句。
+       id：唯一标识，随便写，在同一个命名空间下保持唯一，使用动态代理之后要求和方法名保持一致
+       resultType：sql语句查询结果集的封装类型，使用动态代理之后和方法的返回类型一致；resultMap：二选一
+       parameterType：参数的类型，使用动态代理之后和方法的参数类型一致
+     -->
+    <select id="queryUserById" resultType="com.machun.springbootmybatisplus.entity.User">
+        select * from  user where uid = #{id}
+    </select>
+
+    <select id="queryUserByIds" parameterType="com.machun.springbootmybatisplus.entity.QueryVO" resultType="com.machun.springbootmybatisplus.entity.User">
+        select * from  user
+        <where>
+            uid in
+           <foreach collection="ids" item="userId" separator="," open="(" close=")">
+               #{userId}
+           </foreach>
+        </where>
+    </select>
+
+    <select id="queryUserAll" resultType="com.machun.springbootmybatisplus.entity.User">
+        select * from user
+    </select>
+    <!-- 新增的Statement
+       id：唯一标识，随便写，在同一个命名空间下保持唯一，使用动态代理之后要求和方法名保持一致
+       parameterType：参数的类型，使用动态代理之后和方法的参数类型一致
+       useGeneratedKeys:开启主键回写
+       keyColumn：指定数据库的主键
+       keyProperty：主键对应的pojo属性名
+     -->
+    <insert id="insertUser" parameterType="com.machun.springbootmybatisplus.entity.User">
+        INSERT INTO user (
+        uid,
+        username,
+        password,
+        name,
+        email,
+        telephone,
+        birthday,
+        sex
+
+        )
+        VALUES
+        (
+        #{uid},
+        #{username},
+        #{password},
+        #{name},
+        #{email},
+        #{telephone},
+        #{birthday},
+        #{sex}
+        );
+    </insert>
+    <!--
+       更新的statement
+       id：唯一标识，随便写，在同一个命名空间下保持唯一，使用动态代理之后要求和方法名保持一致
+       parameterType：参数的类型，使用动态代理之后和方法的参数类型一致
+     -->
+    <update id="updateUser" parameterType="com.machun.springbootmybatisplus.entity.User">
+        UPDATE user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="username!=null">user_name = #{username},</if>
+            <if test="password!=null">password = #{password},</if>
+            <if test="name!=null">name = #{name},</if>
+            <if test="age!=null">age = #{age},</if>
+            <if test="sex!=null">sex = #{sex},</if>
+            <if test="birthday!=null">birthday = #{birthday},</if>
+            updated = now(),
+        </trim>
+        WHERE
+        (id = #{id});
+    </update>
+    <!--
+       删除的statement
+       id：唯一标识，随便写，在同一个命名空间下保持唯一，使用动态代理之后要求和方法名保持一致
+       parameterType：参数的类型，使用动态代理之后和方法的参数类型一致
+     -->
+    <delete id="deleteUserById" parameterType="java.lang.String">
+        delete from user where id=#{id}
+    </delete>
+
+    <sql id="Base_Where_List">
+        <if test="userName != null  and userName != ''">
+            and username = #{userName}
+        </if>
+        <if test="sex != null and sex != ''">
+            and sex = #{sex}
+        </if>
+    </sql>
+
+    <select id="queryUserList" resultType="com.machun.springbootmybatisplus.entity.User" parameterType="com.machun.springbootmybatisplus.entity.UserQueryPO">
+        select
+         *
+        from user
+        where 1=1
+        <include refid="Base_Where_List" />
+        order by uid desc
+        limit #{beginLine} , #{pageSize}
+    </select>
+
+    <select id="getCount" resultType="Integer" parameterType="com.machun.springbootmybatisplus.entity.UserQueryPO">
+        select
+        count(1)
+        from user
+        where 1=1
+        <include refid="Base_Where_List" />
+    </select>
+
+
+</mapper>

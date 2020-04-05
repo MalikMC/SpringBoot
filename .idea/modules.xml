@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-excption/springboot-excption.iml" filepath="$PROJECT_DIR$/springboot-excption/springboot-excption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-filter/springboot-filter.iml" filepath="$PROJECT_DIR$/springboot-filter/springboot-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jackson/springboot-jackson.iml" filepath="$PROJECT_DIR$/springboot-jackson/springboot-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" filepath="$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-logback/springboot-logback.iml" filepath="$PROJECT_DIR$/springboot-logback/springboot-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatisannotation/springboot-mybatisannotation.iml" filepath="$PROJECT_DIR$/springboot-mybatisannotation/springboot-mybatisannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatisxml/springboot-mybatisxml.iml" filepath="$PROJECT_DIR$/springboot-mybatisxml/springboot-mybatisxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springdatajpa/springboot-springdatajpa.iml" filepath="$PROJECT_DIR$/springboot-springdatajpa/springboot-springdatajpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springdatajpamulti/springboot-springdatajpamulti.iml" filepath="$PROJECT_DIR$/springboot-springdatajpamulti/springboot-springdatajpamulti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf/springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srpingboot-upload/srpingboot-upload.iml" filepath="$PROJECT_DIR$/srpingboot-upload/srpingboot-upload.iml" />
+    </modules>
+  </component>
+</project>

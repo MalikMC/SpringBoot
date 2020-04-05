@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>IF/Unless</title>
+</head>
+<body>
+<h2 th:if="${sex=='1'}" th:text="${woman}"/><br/>
+<h2 th:unless="${sex!='1'}" th:text="${man}"/>
+</body>
+</html>

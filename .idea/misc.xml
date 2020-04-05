@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-excption/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisxml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisannotation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springdatajpamulti/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/springbooot-elasticsearch/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="12" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="yapi">
+    <option name="projectToken">5cc9fd53ad4335af52c6941f81e62b2dc27dbd5fd270b0a0b47a17ee18b920b2</option>
+    <option name="projectId">11</option>
+    <option name="yapiUrl">http://182.92.243.236:3000/</option>
+    <option name="projectType">api</option>
+  </component>
+</project>

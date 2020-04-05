@@ -1,0 +1,211 @@
+2020-04-01 19:31:43.484[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Starting SpringbootMybatisAnnotationApplication on MACHUN1-F1HJR2W with PID 110964 (started by machun1 in D:\学习\Git\SpringBoot)
+2020-04-01 19:31:43.490[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - No active profile set, falling back to default profiles: default
+2020-04-01 19:31:43.625[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 19:31:43.625[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 19:31:44.107[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.machun.springbootmybatisannotation.mapper.master.UserDao' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:31:44.107[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDaoSalve' and 'com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:31:44.107[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.machun.springbootmybatisannotation.mapper]' package. Please check your configuration.
+2020-04-01 19:31:44.642[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 19:31:44.649[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:31:44.649[restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 19:31:44.650[restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 19:31:44.718[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 19:31:44.719[restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1093 ms
+2020-04-01 19:31:44.944[restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 19:31:45.151[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 19:31:45.178[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:31:45.199[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 19:31:45.202[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Started SpringbootMybatisAnnotationApplication in 2.281 seconds (JVM running for 3.355)
+2020-04-01 19:31:54.742[http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1583637916] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-01 19:31:54.974[http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 19:31:54.974[http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 19:31:54.981[http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-01 19:31:59.575[http-nio-8080-exec-8] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+2020-04-01 19:39:41.204[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Starting SpringbootMybatisAnnotationApplication on MACHUN1-F1HJR2W with PID 113180 (started by machun1 in D:\学习\Git\SpringBoot)
+2020-04-01 19:39:41.207[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - No active profile set, falling back to default profiles: default
+2020-04-01 19:39:41.285[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 19:39:41.286[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 19:39:41.914[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.machun.springbootmybatisannotation.mapper.master.UserDao' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:39:41.915[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDaoSalve' and 'com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:39:41.915[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.machun.springbootmybatisannotation.mapper]' package. Please check your configuration.
+2020-04-01 19:39:42.808[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 19:39:42.827[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:39:42.828[restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 19:39:42.828[restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 19:39:42.961[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 19:39:42.962[restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1676 ms
+2020-04-01 19:39:43.371[restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 19:39:43.586[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 19:39:43.648[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:39:43.685[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 19:39:43.691[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Started SpringbootMybatisAnnotationApplication in 2.797 seconds (JVM running for 3.615)
+2020-04-01 19:40:11.161[http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1583637916; JSESSIONID=2B03409C4AD43FC7760318A1B4B2C207] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-01 19:40:16.018[http-nio-8080-exec-7] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+2020-04-01 19:51:52.747[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Starting SpringbootMybatisAnnotationApplication on MACHUN1-F1HJR2W with PID 123648 (started by machun1 in D:\学习\Git\SpringBoot)
+2020-04-01 19:51:52.751[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - No active profile set, falling back to default profiles: default
+2020-04-01 19:51:52.852[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 19:51:52.852[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 19:51:53.405[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.machun.springbootmybatisannotation.mapper.master.UserDao' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:51:53.406[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDaoSalve' and 'com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve' mapperInterface. Bean already defined with the same name!
+2020-04-01 19:51:53.406[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.machun.springbootmybatisannotation.mapper]' package. Please check your configuration.
+2020-04-01 19:51:53.983[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 19:51:53.992[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:51:53.992[restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 19:51:53.992[restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 19:51:54.077[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 19:51:54.078[restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1226 ms
+2020-04-01 19:51:54.294[restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 19:51:54.450[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 19:51:54.490[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 19:51:54.516[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 19:51:54.523[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Started SpringbootMybatisAnnotationApplication in 2.189 seconds (JVM running for 3.059)
+2020-04-01 19:52:51.797[http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1583637916] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-01 19:52:51.803[http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 19:52:51.804[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 19:52:51.810[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-01 19:54:08.416[http-nio-8080-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+2020-04-01 19:54:34.134[http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-01 19:54:34.381[http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-01 19:54:34.390[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 19:54:34.406[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 19:54:34.429[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 19:54:34.439[http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve.queryUserAll] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve.queryUserAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy70.queryUserAll(Unknown Source)
+	at com.machun.springbootmybatisannotation.controller.UserController.getUser(UserController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2020-04-01 20:00:07.953[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Starting SpringbootMybatisAnnotationApplication on MACHUN1-F1HJR2W with PID 65412 (started by machun1 in D:\学习\Git\SpringBoot)
+2020-04-01 20:00:07.956[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - No active profile set, falling back to default profiles: default
+2020-04-01 20:00:08.025[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 20:00:08.025[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 20:00:08.646[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.machun.springbootmybatisannotation.mapper.master.UserDao' mapperInterface. Bean already defined with the same name!
+2020-04-01 20:00:08.646[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDaoSalve' and 'com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve' mapperInterface. Bean already defined with the same name!
+2020-04-01 20:00:08.646[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.machun.springbootmybatisannotation.mapper]' package. Please check your configuration.
+2020-04-01 20:00:09.430[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 20:00:09.439[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 20:00:09.440[restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 20:00:09.441[restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 20:00:09.535[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 20:00:09.536[restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1511 ms
+2020-04-01 20:00:09.935[restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 20:00:10.211[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 20:00:10.276[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 20:00:10.310[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 20:00:10.316[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Started SpringbootMybatisAnnotationApplication in 2.672 seconds (JVM running for 3.48)
+2020-04-01 20:00:13.681[http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1583637916; JSESSIONID=B529861CB380479682359E3B644EE8D8] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-01 20:00:20.780[http-nio-8080-exec-5] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
+2020-04-01 20:00:25.230[http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 20:00:25.230[http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-01 20:00:25.236[http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-01 20:00:25.265[http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-01 20:00:25.518[http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-01 20:00:25.522[http-nio-8080-exec-3] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:25.537[http-nio-8080-exec-3] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:25.560[http-nio-8080-exec-3] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 20:00:25.564[http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-04-01 20:00:25.579[http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-04-01 20:00:25.580[http-nio-8080-exec-3] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:25.580[http-nio-8080-exec-3] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:25.588[http-nio-8080-exec-3] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - <==      Total: 13
+2020-04-01 20:00:33.450[http-nio-8080-exec-6] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:33.450[http-nio-8080-exec-6] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:33.453[http-nio-8080-exec-6] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 20:00:33.456[http-nio-8080-exec-6] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:33.457[http-nio-8080-exec-6] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:33.467[http-nio-8080-exec-6] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - <==      Total: 13
+2020-04-01 20:00:34.236[http-nio-8080-exec-2] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:34.236[http-nio-8080-exec-2] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:34.238[http-nio-8080-exec-2] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 20:00:34.240[http-nio-8080-exec-2] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:34.240[http-nio-8080-exec-2] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:34.243[http-nio-8080-exec-2] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - <==      Total: 13
+2020-04-01 20:00:55.675[http-nio-8080-exec-1] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:55.676[http-nio-8080-exec-1] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:55.681[http-nio-8080-exec-1] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 20:00:55.683[http-nio-8080-exec-1] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:55.683[http-nio-8080-exec-1] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:55.686[http-nio-8080-exec-1] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - <==      Total: 13
+2020-04-01 20:00:56.333[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:56.334[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:56.338[http-nio-8080-exec-7] DEBUG c.m.s.mapper.master.UserDao.queryUserAll - <==      Total: 13
+2020-04-01 20:00:56.339[http-nio-8080-exec-7] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==>  Preparing: SELECT * FROM user 
+2020-04-01 20:00:56.340[http-nio-8080-exec-7] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - ==> Parameters: 
+2020-04-01 20:00:56.343[http-nio-8080-exec-7] DEBUG c.m.s.mapper.salve.UserDaoSalve.queryUserAll - <==      Total: 13
+2020-04-01 20:03:17.992[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Starting SpringbootMybatisAnnotationApplication on MACHUN1-F1HJR2W with PID 100328 (started by machun1 in D:\学习\Git\SpringBoot)
+2020-04-01 20:03:17.995[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - No active profile set, falling back to default profiles: default
+2020-04-01 20:03:18.057[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-01 20:03:18.057[restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-01 20:03:18.624[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDao' and 'com.machun.springbootmybatisannotation.mapper.master.UserDao' mapperInterface. Bean already defined with the same name!
+2020-04-01 20:03:18.624[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userDaoSalve' and 'com.machun.springbootmybatisannotation.mapper.salve.UserDaoSalve' mapperInterface. Bean already defined with the same name!
+2020-04-01 20:03:18.624[restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.machun.springbootmybatisannotation.mapper]' package. Please check your configuration.
+2020-04-01 20:03:19.130[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-01 20:03:19.136[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-01 20:03:19.137[restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 20:03:19.138[restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 20:03:19.208[restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 20:03:19.208[restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1151 ms
+2020-04-01 20:03:19.452[restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 20:03:19.599[restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-01 20:03:19.622[restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-01 20:03:19.637[restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 20:03:19.640[restartedMain] INFO  c.m.s.SpringbootMybatisAnnotationApplication - Started SpringbootMybatisAnnotationApplication in 2.074 seconds (JVM running for 3.179)

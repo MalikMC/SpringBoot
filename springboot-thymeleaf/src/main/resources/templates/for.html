@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>for 循环</h1>
+    <table border="1">
+     <tr>
+        <td>Index</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Status</td>
+        <td>Phone</td>
+        <td>URL</td>
+        </tr>
+        <tr th:each="user,iterStat:${users}">
+            <td th:text="${iterStat.index}">index</td>
+            <td th:text="${user.getUserName()}">neo</td>
+            <td th:text="${user.getAge()}">6</td>
+            <td th:text="${user.getAge() gt 30 ? '中年':'青年'}">6</td>
+            <td th:text="${user.getPhone()}">1212213</td>
+            <td><a th:href="@{${user.getPersonUrl()}}"   th:text="${user.getPersonUrl()}" target="_blank" >www</a></td>
+
+        </tr>
+    </table>
+</div>
+</body>
+</html>
