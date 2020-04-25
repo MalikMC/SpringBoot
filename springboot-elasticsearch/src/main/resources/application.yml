@@ -1,7 +1,7 @@
 spring:
   data:
     elasticsearch:
-      cluster-name: docker-cluster
-      cluster-nodes: 127.0.0.1:9300
+      cluster-name: cpm-elasticsearch-tst
+      cluster-nodes: 10.64.187.41:9300,10.64.187.42:9300
       repositories:
         enabled: true
